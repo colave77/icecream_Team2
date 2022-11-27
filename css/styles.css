@@ -1,0 +1,55 @@
+/* variables generales */
+:root {
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --gray-color: ##907E82;
+    --red-color: #D41443;
+    --pink-light-color:#FFF5F6;
+    --pink-hard-color: #FFA5BA;
+    --yellow-light-color: #F0D1A5;
+    --green-light-color:#C2E297
+}
+
+/* clases generales */
+body {
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: var(--black-color);
+    margin: 0 auto;
+    }
+
+/* Clases Advantages and Gallery */
+.advantage{
+    background-color: var(--pink-light-color);
+    display: flex;
+    justify-content: space-around;
+}
+.advantage_item{
+    display: flex;
+    flex-direction: column;
+}
+.advantage_svg{
+    width: 50px;
+    height: 50px;
+}
+.advantage_num{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--red-color);
+}
+.advantage_p{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
